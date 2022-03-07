@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/humid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/allan"
+        android:letterSpacing="0.05"
+        android:padding="15dp"
+        android:text="HUMIDer"
+        android:textColor="@color/white"
+        android:textSize="90dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/gentium_basic"
+        android:gravity="left"
+        android:letterSpacing="0.05"
+        android:padding="15dp"
+        android:text="Feels Better and Pure Air every DAY"
+        android:textColor="#236ACC"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="108dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        app:backgroundTint="#236ACC"
+        app:cornerRadius="80dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="634dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="36dp"
+        android:text="LOG IN"
+        android:textSize="25dp"
+        app:backgroundTint="#236ACC"
+        app:cornerRadius="80dp" />
+
+</RelativeLayout>

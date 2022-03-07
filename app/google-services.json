@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64056888911",
+    "project_id": "thermostat-732c5",
+    "storage_bucket": "thermostat-732c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64056888911:android:8a7f589e4049ec103de43a",
+        "android_client_info": {
+          "package_name": "com.example.thermostat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64056888911-vfi1lmqr01dju38mb66a8bee6tad9efv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeLkRAYVyFS58W60omJq52cjTZAKsSy0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64056888911-vfi1lmqr01dju38mb66a8bee6tad9efv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
